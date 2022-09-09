@@ -1,9 +1,9 @@
 {
 	"name": "to-typescript-interface",
-	"displayName": "Java To Typescript Interface",
+	"displayName": "Java To TypeScript Interface",
 	"description": "Convert Java DTO To TypeScript Interface",
   "publisher": "gauseen",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.71.0"
 	},
