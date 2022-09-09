@@ -1,6 +1,6 @@
 {
 	"name": "to-typescript-interface",
-	"displayName": "to-typescript-interface",
+	"displayName": "Java To Typescript Interface",
 	"description": "Convert Java DTO To TypeScript Interface",
   "publisher": "gauseen",
 	"version": "1.0.0-beta.1",
