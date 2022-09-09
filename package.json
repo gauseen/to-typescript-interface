@@ -2,6 +2,7 @@
 	"name": "to-typescript-interface",
 	"displayName": "to-typescript-interface",
 	"description": "Convert Java DTO To TypeScript Interface",
+  "publisher": "gauseen",
 	"version": "1.0.0-beta.1",
 	"engines": {
 		"vscode": "^1.71.0"
