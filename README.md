@@ -13,7 +13,7 @@
 
 ## Example
 
-![Demo]()
+![Demo](https://github.com/gauseen/to-typescript-interface/blob/main/images/example.gif?raw=true)
 
 input java class:
 
