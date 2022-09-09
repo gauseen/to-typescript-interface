@@ -3,7 +3,7 @@
 	"displayName": "Java To Typescript Interface",
 	"description": "Convert Java DTO To TypeScript Interface",
   "publisher": "gauseen",
-	"version": "1.0.0-beta.1",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.71.0"
 	},
@@ -11,10 +11,19 @@
     "Formatters",
 		"Other"
 	],
+  "keywords": [
+    "Convert",
+    "Java",
+    "DTO",
+    "TypeScript",
+    "interface",
+    "tool"
+  ],
 	"activationEvents": [
 		"onCommand:to-typescript-interface.toTypeScript"
 	],
 	"main": "./out/extension.js",
+  "icon": "images/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/gauseen/to-typescript-interface"
