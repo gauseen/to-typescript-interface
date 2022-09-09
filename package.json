@@ -14,6 +14,10 @@
 		"onCommand:to-typescript-interface.toTypeScript"
 	],
 	"main": "./out/extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gauseen/to-typescript-interface"
+  },
 	"contributes": {
 		"commands": [
 			{
