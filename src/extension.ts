@@ -16,12 +16,20 @@ export function activate(context: vscode.ExtensionContext) {
         editor?.selections.forEach((selection) => {
           const range = selection.isEmpty ? document.getWordRangeAtPosition(selection.start) || selection : selection;
           const selectedText = document.getText(range);
-          const result = javaDtoToTypeScriptInterface(selectedText);
 
-          if (result) {
-            editBuilder.replace(range, result);
-          } else {
+          if (!selectedText) {
             vscode.window.showWarningMessage('Please select the content first');
+            return;
+          }
+
+          try {
+            const result = javaDtoToTypeScriptInterface(selectedText);
+            if (result) {
+              editBuilder.replace(range, result);
+            }
+          } catch (error: any) {
+            console.error(error);
+            vscode.window.showErrorMessage(error?.message);
           }
         });
       });
